@@ -26,6 +26,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <dependency>
+  <groupId>com.google.guava</groupId>
+  <artifactId>guava</artifactId>
+  <version>31.1-jre</version>
+  <!-- or, for Android: -->
+  <version>31.1-android</version>
+  </dependency>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
