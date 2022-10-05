@@ -1,4 +1,4 @@
-def lib(){
+def call(){
   
   pipeline {
   agent any
