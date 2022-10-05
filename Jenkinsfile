@@ -1,10 +1,13 @@
 pipeline {
   agent any
+  tools{
+    maven:'mvnapp'
+  }
 
   stages {
     stage('Java') {
       steps {
-        sh 'ls -lah app | grep *.json'
+        sh 'mvn package'
       }
     }
 
