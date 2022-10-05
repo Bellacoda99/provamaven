@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-    maven : 'mvnapp'
+    maven 'mvnapp'
   }
 
   stages {
