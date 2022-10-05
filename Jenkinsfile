@@ -1,2 +1,2 @@
-@Library('libmaven')
+@Library('libmaven') _
 lib()
