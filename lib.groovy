@@ -1,11 +1,9 @@
-pipeline {
+def lib(){
+  
+  pipeline {
   agent any
   tools {
     maven 'mvnapp'
-  }
-  
-  def lib(){
-    sh 'echo ciao > maven.txt'
   }
     
     
@@ -17,3 +15,6 @@ pipeline {
     }
   }
 }
+
+}
+
